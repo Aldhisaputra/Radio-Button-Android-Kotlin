@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+
+    <RadioGroup
+        android:id="@+id/rd"
+        android:layout_width="153dp"
+        android:layout_height="87dp"
+        android:layout_centerInParent="true">
+
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/female"
+            android:layout_centerInParent="true"
+            android:text="Laki-Laki" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/male"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:checked="true"
+            android:text="Perempuan"/>
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd"
+        android:layout_marginTop="41dp"
+        android:text="Hasil :"
+        android:textSize="20dp"
+        android:layout_marginLeft="130dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rd"
+        android:layout_alignTop="@+id/result"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="0dp"
+        android:text="Prempuan"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
+
+
