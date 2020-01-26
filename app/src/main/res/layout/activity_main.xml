@@ -28,18 +28,23 @@
 
     </RadioGroup>
 
+
+    <TextView
+        android:id="@+id/result_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radio_group"
+        android:text="Hasil :"
+        android:textSize="20dp"
+        android:layout_marginLeft="90dp"/>
+
     <TextView
         android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/radio_group"
-        android:layout_marginTop="41dp"
-        android:text="Hasil"
-        android:textSize="20dp"
-        android:layout_centerInParent="true"/>
-
-
-
+        android:layout_centerInParent="true"
+        android:textSize="20dp" />
 
 
 </RelativeLayout>

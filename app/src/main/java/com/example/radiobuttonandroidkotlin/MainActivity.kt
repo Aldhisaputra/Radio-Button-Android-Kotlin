@@ -20,22 +20,9 @@ class MainActivity : AppCompatActivity() {
             RadioGroup.OnCheckedChangeListener { group, checkedId ->
                 val radio: RadioButton = findViewById(checkedId)
 
-                Toast.makeText(applicationContext,"${radio.text}",Toast.LENGTH_SHORT).show()
-
-                var male = "Laki-Laki"
-
-                result.text = "$male"
-
-
-
-
+                result.text = "${radio.text}"
 
             })
-
-
     }
-
-
-
 
 }
